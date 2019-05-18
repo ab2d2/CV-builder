@@ -17,7 +17,7 @@ const Footer = ({ linkedin }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </span>
 
-      <a href={linkedin} target="_blank">
+      <a href={linkedin} target="_blank" rel="noopener noreferrer">
         <FaLinkedin className="social-icon" size="32" />
       </a>
     </FooterItems>
